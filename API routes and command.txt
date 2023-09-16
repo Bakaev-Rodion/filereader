@@ -1,0 +1,7 @@
+/route/find - GET all data
+/route/find/criteria/{criteria}/{value} - GET data by criteria and value
+/route/find/limit/{offset}/{limit} - GET data with limit (from *offset* to *value*)
+/route/find/pagination/{pagination} - GET data with pagination 
+
+php artisan db:seed --class=ShipmentCSVSeeder  -  seed data into DB from data.csv file
+php artisan db:seed --class=ShipmentXMLSeeder  -  seed data into DB from data.xml file 
